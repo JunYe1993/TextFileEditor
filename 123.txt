@@ -1,0 +1,65 @@
+C-Plane			Control Plane: refers specifically to real-time control between O-DU and O-RU, and should not be 29 confused with the UE¡¦s control plane 30
+DL			DownLink: data flow towards the radiating antenna 31
+eNB			eNodeB (applies to LTE) <E-UTRAN NodeB / Evolved NodeB> 32
+fm-pm			Fault Management, Performance Management role 33
+gNB			gNodeB (applies to NR) <Next Generation NodeB> 34	
+M-Plane			Management Plane: refers to non-real-time management operations between the O-DU and the O-35 RU 36
+NETCONF			Network Configuration Protocol. For details see: RFC 6241, ¡§Network Configuration Protocol 37 (NETCONF)¡¨, IETF, June 2011 38
+NSA			Non-Stand-Alone network mode that supports operation of SgNB attached to MeNB 39
+O-CU			O-RAN Central Unit ¡V a logical node hosting PDCP, RRC, SDAP and other control functions 40
+O-DU			O-RAN Distributed Unit: a logical node hosting RLC/MAC/High-PHY layers based on a lower 41 layer functional split. O-DU in addition hosts an M-Plane instance. 42
+O-RU			O-RAN Radio Unit <O-RAN Radio Unit: a logical node hosting Low-PHY layer and RF 1 processing based on a lower layer functional split. This is similar to 3GPP¡¦s ¡§TRP¡¨ or ¡§RRH¡¨ but 2 more specific in including the Low-PHY layer (FFT/iFFT, PRACH extraction).>. O-RU in 3 addition hosts M-Plane instance. 4
+PTP			Precision Time Protocol (PTP) is a protocol for distributing precise time and frequency over 5 packet networks. PTP is defined in the IEEE Standard 1588. 6
+PDCCH			Physical Downlink Control Channel applies for LTE and NR air interface 7
+PBCH			Physical Broadcast Channel applies for LTE and NR air interface 8
+SA			Stand-Alone network mode that supports operation of gNB attached to a 5G Core Network 9
+SCS			OFDM Sub Carrier Spacing 10
+SSB			Synchronization Signal Block, in 5G PBCH and synchronization signal are packaged as a single 11 block 12
+sudo			Super-User Do role 13
+S-Plane			Synchronization Plane: Data flow for synchronization and timing information between nodes 14
+SyncE			Synchronous Ethernet, is an ITU-T standard for computer networking that facilitates distribution 15 of clock signals over the Ethernet physical layer 16
+T-BC			Telecom Boundary Clock 17
+TWAMP			Two-Way Active Measurement Protocol 18
+UDP			User Datagram Protocol 19
+UE			User Equipment terminology for a mobile device in LTE and NR 20
+UL			UpLink: data flow from the UE towards the core network, that is from the O-RU towards in the O-21 DU in a Fronthaul context. 22
+U-Plane			User Plane: refers to IQ sample data transferred between O-DU and O-RU 23
+5GS			5G System, comprises the access network, core network and user equipment 29
+ARFCN			Absolute Radio Frequency Channel Number 30
+CC			Component Carrier 31
+CN			Core Network 32
+C/U-Plane			C-Plane and U-Plane 33
+DHCP			Dynamic Host Configuration Protocol 34
+DL			DownLink 35
+DUT			Device Under Test 36
+eNB			eNodeB 37
+EARFCN			E-UTRA ARFCN 38
+EVM			Error Vector Magnitude 39
+FH			Fronthaul 40
+fm-pm			Fault Management, Performance Management role 41
+GSCN			Global Synchronization Channel Number 42
+gNB			gNodeB 1	
+MeNB			Master eNB 2
+NETCONF			Network Configuration Protocol 3
+NMS			Network Management System 4
+nms			NMS role 5
+NSA			Non-Stand-Alone 6
+O-CU			O-RAN Central Unit 7
+O-DU			O-RAN Distributed Unit 8
+O-RU			O-RAN Radio Unit 9
+OTA			Over the Air 10
+PBCH			Physical Broadcast Channel 11
+PCI			Physical Cell Identity 12
+PRTC			Primary Reference Time Clock 13
+RF			Radio Frequency 14
+RSRP			Reference Signal Received Power 15
+SA			Stand-Alone 16
+SCS			Sub Carrier Spacing 17
+SDAP			Service Data Adaptation Protocol 18
+SgNB			Secondary gNB 19
+SSB			Synchronization Signal Block 20
+sudo			Super User Do role 21
+swm			Software fault management role 22
+UE			User Equipment 23
+UL			UpLink 24
+U-Plane			User Plane
